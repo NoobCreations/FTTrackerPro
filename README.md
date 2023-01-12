@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+<div id="top"></div>
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">FTTrackerPro</h3>
 
-## Available Scripts
+  <p align="center">
+    Yet another fitness tracker! Built by a group of aspiring developers. 
+    <br />
+    <br />
+    <br />
+    <a href="https://github.com/NoobCreations/FTTrackerPro/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/NoobCreations/FTTrackerPro/issues">Request Feature</a>
+  </p>
+</div>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm run build`
+A run of the mill fitness tracker with many features. Built by a group of aspiring developers as a way to learn how a full stack application is put together and gain some experience of working in a team. This will go beyond a basic website that stores your workouts. We have exciting things planned with features to help you stay on track and stay motivated!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ![product-screenshot](./screenshot.png) -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built With
 
-### `npm run eject`
+<!-- * [Rust](https://www.rust-lang.org/) -->
+* [React](https://reactjs.org/)
+<!-- * [MongoDB](https://www.mongodb.com/) -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+There are a few dependencies so you will need npm installed
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone the repo
+   ```sh
+   git clone git@github.com:NoobCreations/FTTrackerPro.git
+   ```
+2. Build the React project
+   ```sh
+   cd FTTrackerPro
+   npm run build
+   ```
+3. Start the server
+   ```sh
+   npm run start
+   ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- ROADMAP -->
+## Roadmap
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [] Create user login
+- [] Store user data in DB
+- [] Retrieve user data from DB
+- [] Log workouts
 
-### Code Splitting
+See the [open issues](https://github.com/NoobCreations/FTTrackerPro/issues) for a full list of proposed features (and known issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+<!-- CONTRIBUTING -->
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Making a Progressive Web App
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Advanced Configuration
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- LICENSE -->
+## License
 
-### Deployment
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-url]: https://github.com/NoobCreations/FTTrackerPro/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-url]: https://github.com/NoobCreations/FTTrackerPro/network/members
+[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
+[issues-url]: https://github.com/NoobCreations/FTTrackerPro/issues
+[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-url]: https://github.com/NoobCreations/FTTrackerPro/blob/main/LICENSE.txt
