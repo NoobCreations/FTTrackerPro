@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbarContainer {
+    display: flex;
+    overflow-y: hidden;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    font-size: 1.2rem;
+}
+
+
+.signUp,
+.signIn {
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    height: 1.5rem;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.mainPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    height: 30vh;
+    width: 70vw;
+}
+
+.content p {
+    font-size: 1.5rem;
+}
+
+.startBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    width: 4.2rem;
+    height: 1.8rem;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 1.5rem;
+}
